@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+	.container{
+		background-image: url(../img/dawn.png);
+	}
+	.cat{
+		background-image: url(../img/kitten-small.png);
+		background-size: 100%;
+	}
+}      
+@media (min-width: 768px) and (max-width: 991px) {
+	.container{
+		background-image: url(../img/night.jpg)
+	}
+	.cat{
+		background-size: 100%;
+		background-image: url(../img/kitten-large.png);
+	}      
+
+}
